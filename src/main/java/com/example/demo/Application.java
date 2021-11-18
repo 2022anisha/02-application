@@ -11,6 +11,11 @@ public class Application {
 		System.out.println("running");
 
                  int a=10;
+               
+
 	}
+
+public void doprocess(){
+//logic here
 
 }
