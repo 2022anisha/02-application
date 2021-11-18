@@ -6,7 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Application {
 
+
+      Map<String,Object> cache = new HashMap<String,Object>();
+
 public static final string api_url="https://equifix.com/getscores";
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
@@ -17,7 +21,12 @@ public static final string api_url="https://equifix.com/getscores";
 
 	}
 
+
+   public void loadDataToCache(){
+      //logic
+}
 public void doprocess(){
 //logic here
+
 
 }
